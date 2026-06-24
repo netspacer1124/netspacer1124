@@ -6,5 +6,8 @@
 - urllib3 (python lib for https) 1 vuln
 - langchain (software used for AI) 1 vuln
 - socket.io (web sockets etc) 2 vulns
-
-  10 VULNS TOTAL!!!
+- Celery	25k	3	vulns Path traversal → arbitrary file write via AMQP
+- aiohttp	15k	3	vulns CL+TE smuggling (parser inconsistency)
+- Bull	14k	3	vulns Prototype corruption via sandbox IPC
+- httpx	14k	3	vulns CRLF in multipart headers
+- gunicorn	10k	3 vulns ASGI response splitting
